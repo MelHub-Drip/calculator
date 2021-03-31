@@ -1,11 +1,15 @@
 package za.ca.cput.calculator;
 
 /*
-*Return result of integer division
+* author: Melven Booysen
 *
  */
 public class Division
 {
+    /*
+     *Return result of integer division
+     *
+     */
     public static int intergerDivision (int numerator, int denominator)
     {
         if (denominator < 1) return 0;
